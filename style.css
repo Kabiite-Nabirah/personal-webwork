@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+  background-color: #f7f9fc;
+  font-family: 'Lora', serif;
+  color: #575f7d;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Card Styling */
+.card-white {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Profile Image */
+.img-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-purple {
+  display: inline-block;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: #5848d6;
+}
+
+/* Travel Card */
+.travel-card {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+  text-align: left;
+  background: white;
+}
+
+.travel-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.travel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.travel-content p {
+  margin: 5px 0 0 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+/* Social Media */
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-list a {
+  font-size: 24px;
+  color: #575f7d;
+  transition: 0.3s ease;
+}
+
+.social-list a:hover {
+  color: #6c63ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .card-white {
+    padding: 25px;
+  }
+
+  .travel-img {
+    height: 200px;
+  }
+}
