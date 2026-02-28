@@ -1,0 +1,109 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 70px; /* Prevent content hiding behind fixed navbar */
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+#home {
+  background: linear-gradient(to right, #0d6efd, #0a58ca);
+  color: white;
+}
+
+#home h1 {
+  font-weight: 700;
+}
+
+#home .btn {
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+#home .btn:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+#about img {
+  max-width: 250px;
+  border: 5px solid #0d6efd;
+}
+
+#about p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* =========================
+   PROJECTS SECTION
+========================= */
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+#contact form {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+#contact .btn {
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
